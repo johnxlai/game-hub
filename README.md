@@ -39,3 +39,57 @@ Before you begin, ensure you have the following software installed on your machi
 
    ```bash
    git clone https://github.com/your-username/gamehub.git
+
+2. Change into the project directory:
+
+   ```bash
+   cd gamehub
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+   ### Configuration
+ To configure the application, create a .env file in the root of the project and add the following:
+
+  ```REACT_APP_RAWG_API_KEY=your_rawg_api_key```
+
+  Replace your_rawg_api_key with your API key from the RAWG API.
+
+### Usage
+Start the development server:
+
+npm run dev
+# or
+yarn dev
+
+Visit http://localhost:3000 in your browser.
+
+
+### Deployment
+The project is ready for deployment on Vercel. Connect your Vercel account to the repository, and Vercel will automatically handle the deployment process.
+
+### Built With
+React
+TypeScript
+Vite
+Vercel
+Chakra UI
+RAWG API
+Contributing
+Contributions are welcome! Please check the Contribution Guidelines.
+
+### License
+This project is licensed under the MIT License.
+
+### Acknowledgments
+Thanks to the creators of React, TypeScript, Vite, Vercel, Chakra UI, and the RAWG API.
