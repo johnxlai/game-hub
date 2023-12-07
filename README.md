@@ -2,6 +2,9 @@
 
 Welcome to GameHub, a web application that allows users to discover and explore a vast collection of games. This project is built using React, TypeScript, Vite, Vercel, Chakra UI, and the RAWG API.
 
+### Live Site
+https://game-hub-navy-five.vercel.app/
+
 ## Table of Contents
 
 - [Features](#features)
